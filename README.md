@@ -58,7 +58,11 @@ STIGMA의 포트폴리오 공간입니다.
 3) **백엔드 API 개발**
     - `Django Rest Framework`를 통한 솔루션 패키지 및 모듈들에 대한 백엔드 서비스 API 개발
     - `Celery`, `Redis` 등을 통해 `Cpu Bound`의 `Heavy Task`에 대한 처리 구현
-    <img width="460" height="260" alt="image" src="https://github.com/user-attachments/assets/b9d072c4-e686-44bf-a914-f4f683d2cdd2" />
+
+    <details>
+      <summary>Architecture</summary>
+      <img width="904" height="677" alt="NLP Service" src="https://github.com/user-attachments/assets/4a374d96-d188-4077-aa93-0e0c8085f897" />
+    </details>
 
 4) **Docker 환경 구성**
     - `Docker` 환경 생성 및 유지보수를 통해 실제 서비스 구성 및 구축
