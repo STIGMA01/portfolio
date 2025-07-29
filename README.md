@@ -26,7 +26,7 @@ STIGMA의 포트폴리오 공간입니다.
 
 ### 1. 백엔드 개발 | 자연어 처리(NLP) 솔루션 기업 <sub> **2024. 02. ~ 2024. 12.**</sub>
 ![NLP](https://img.shields.io/badge/NLP-Machine%20Learning-blue?style=flat-square)
-<p>
+<p align="left">
   <img src="https://cdn.simpleicons.org/python/3776AB" height="24" />
   <img src="https://cdn.simpleicons.org/django/092E20" height="24" />
   <img src="https://cdn.simpleicons.org/flask/000000" height="24" />
@@ -73,7 +73,7 @@ STIGMA의 포트폴리오 공간입니다.
 
 
 ### 2. [1인 개발] 경량 웹 서비스 개발 | 영상 자막 등 언어 데이터에 대한 사용자 작업 서비스 구축 <sub> **2025. 06. ~ ...**</sub>
-<p>
+<p align="left">
   <img src="https://cdn.simpleicons.org/python/3776AB" height="24" />
   <img src="https://cdn.simpleicons.org/django/092E20" height="24" />
   <img src="https://cdn.simpleicons.org/neo4j/008CC1" height="24" />
@@ -348,8 +348,26 @@ STIGMA의 포트폴리오 공간입니다.
 
 ## 📂 주요 프로젝트
 
-> [!NOTE]
-> To be written as soon as possible...
+### Habakkuk (웹사이트)
+**전 세계 각지 교회 소식과 여러가지 커뮤니티로서 기능하는 웹사이트 개발**
+
+**[제작 인원]**  
+총 1명
+
+**[제작 기간]**
+2025.07.26 ~ 
+
+**[아키텍처]**
+|  분류  |        항목        |
+|--------|--------------------|
+|  BE    |  ![DRF](https://img.shields.io/badge/Django%20REST%20API-FF1709?style=for-the-badge&logo=django&logoColor=white)  |   
+|  FE    |  ![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)  ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)  |
+|  DB    |  ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+|  Dev-Ops|  ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)    |
+
+**[외부 링크]**
+![🔧 Github](https://github.com/STIGMA01/habakkuk/tree/main!)
+
 
 ---
 
