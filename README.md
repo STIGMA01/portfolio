@@ -366,7 +366,7 @@ STIGMA의 포트폴리오 공간입니다.
 |  Dev-Ops|  ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)    |
 
 **[외부 링크]**  
-![🔧 Github](https://github.com/STIGMA01/habakkuk/tree/main!)
+![🔧 Github](https://github.com/STIGMA01/habakkuk/)
 
 
 ---
