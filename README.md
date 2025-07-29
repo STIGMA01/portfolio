@@ -349,15 +349,15 @@ STIGMA의 포트폴리오 공간입니다.
 ## 📂 주요 프로젝트
 
 ### Habakkuk (웹사이트)
-**전 세계 각지 교회 소식과 여러가지 커뮤니티로서 기능하는 웹사이트 개발**
+**전 세계 각지 교회 소식과 여러가지 커뮤니티로서 기능하는 웹사이트 개발**  
 
 **[제작 인원]**  
 총 1명
 
-**[제작 기간]**
+**[제작 기간]**  
 2025.07.26 ~ 
 
-**[아키텍처]**
+**[아키텍처]**  
 |  분류  |        항목        |
 |--------|--------------------|
 |  BE    |  ![DRF](https://img.shields.io/badge/Django%20REST%20API-FF1709?style=for-the-badge&logo=django&logoColor=white)  |   
@@ -365,7 +365,7 @@ STIGMA의 포트폴리오 공간입니다.
 |  DB    |  ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 |  Dev-Ops|  ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)    |
 
-**[외부 링크]**
+**[외부 링크]**  
 ![🔧 Github](https://github.com/STIGMA01/habakkuk/tree/main!)
 
 
