@@ -1,26 +1,40 @@
-# 개발 포트폴리오
+# ✅ 개발 포트폴리오
 
 <br>
 
-## 단순 코더에서 개발 기획자로 가는 여정
+## 💡 단순 코더에서 개발 기획자로 가는 여정
 안녕하세요.  
-프로그램/백엔드 개발로 시작하였지만, 프론트엔드 개발도 중점적으로  
-깊은 관심을 가지며 달려가고 있는  
-시니어 풀스택 개발·기획자를 꿈꾸는 이대건이라고 합니다.  
+프로그램/백엔드 개발로 시작하였지만, 프론트엔드 개발도 깊은 관심을 가지며  
+달려가고 있는 **시니어 풀스택 개발·기획자**를 꿈꾸는 이대건이라고 합니다.  
 
+-----------
 <br>
 
-## 목차
-- [경력 및 업무 경험](#-경력-및-업무-경험)
+## 📌 목차
 - [기술 스택](#-기술-스택)
+- [경력 및 업무 경험](#-경력-및-업무-경험)
 - [주요 프로젝트](#-주요-프로젝트)
 - [연락처](#-연락처)
+
+-----------
+<br>
+
+## 🧱 기술 스택
+
+| 분야        | 숙련  |             기술 |
+|-------------|------|--------------------|
+| 언어        | `★★★☆`  | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)  ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)  |
+| 백엔드      | `★★☆☆`  | ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white) ![DRF](https://img.shields.io/badge/Django%20REST%20framework-FF1709?style=for-the-badge&logo=django&logoColor=white) ![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)|
+| 프론트엔드  | `★★☆☆` | ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css&logoColor=white) |
+| 데이터베이스  | `★☆☆☆` | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white) ![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white) ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white) |
+| 운영환경   | `★★☆☆` | ![Gunicorn](https://img.shields.io/badge/Gunicorn-499848?style=for-the-badge&logo=gunicorn&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)   |
+| 기타       | `★★☆☆`  | ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)  ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) | 
 
 
 ----
 <br>
 
-## 💻 경력 및 업무 경험
+## 📝 경력 및 업무 경험
 
 > [!NOTE]
 > 개인 프로젝트가 아닌 업무적인 연관성이 깊은 내용은 소스코드나 구체적인 내용 등을 게재하지 않았습니다.
@@ -75,7 +89,7 @@
 ----
 
 
-### 2. [1인 개발] 경량 웹 서비스 개발 | 영상 자막 등 언어 데이터에 대한 사용자 작업 서비스 구축 <sub> **2025. 06. ~ ...**</sub>
+### 2. [1인 개발] 경량 인트라넷 개발 | 영상 자막 등 언어 데이터에 대한 사용자 작업 서비스 구축 <sub> **2025. 06. ~ ...**</sub>
 <p align="left">
   <img src="https://cdn.simpleicons.org/python/3776AB" height="24" />
   <img src="https://cdn.simpleicons.org/django/092E20" height="24" />
@@ -333,25 +347,10 @@
 
 <br>
 
-## 🛠 기술 스택
-
-| 분야        | 숙련  |             기술 |
-|-------------|------|--------------------|
-| 언어        | `★★★☆`  | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) |
-| 백엔드      | `★★☆☆`  | ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white) ![DRF](https://img.shields.io/badge/Django%20REST%20API-FF1709?style=for-the-badge&logo=django&logoColor=white) ![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)|
-| 프론트엔드  | `★★☆☆` | ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css&logoColor=white) |  
-| 데이터베이스  | `★☆☆☆` | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white) ![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white) ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white) |
-| 운영환경   | `★★☆☆` | ![Gunicorn](https://img.shields.io/badge/Gunicorn-499848?style=for-the-badge&logo=gunicorn&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)   |
-| 기타       | `★★☆☆`  |  ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) | 
-
-
-
-
-<br>
-
 ## 📂 주요 프로젝트
-### 외주 홈페이지 개발
-**개인(본인) 목적으로 고객(클라이언트)로부터 외주를 받고 서비스를 소개하는 웹사이트 게발**
+  
+### 🌐 외주 홈페이지 개발
+**개인(본인) 목적으로 고객(클라이언트)로부터 외주를 받고 서비스를 소개하는 정적 웹사이트 개발**
 
 **[제작 인원]**
 총 1명
@@ -380,9 +379,10 @@ SSG 방식 안에서는 사용자가 직접 HTML 서빙을 개별로 받을 수 
 - [보안 문제] 백엔드 로직의 미비로 인해 발생할 수 있는 폼 제출 보안 위협을 Firestore의 정밀한 규칙검사를 통해 해결하였습니다.
 - [보안 문제] 엄격한 CSP를 요구하는 사이트 목적은 아니지만, 보다 안전한 사이트를 위해 CSP 설정을 약간 엄격하게 지정하였습니다. 이 과정에서 정적 파일이나 CDN 등이 서빙되지 않은 간헐적 문제를 겪었지만, 정확한 도메인을 지정함으로써 문제를 해결했습니다.  
   
-
-### Habakkuk (웹사이트)
-**전 세계 각지 교회 소식과 여러가지 커뮤니티로서 기능하는 웹사이트 개발**  
+-----------
+### 🌐 Habakkuk (웹사이트)
+**전 세계 각지 교회 소식과 여러가지 커뮤니티로서 기능하는 웹사이트 개발** 
+**주요 기능: 실시간 정보 제공, 커뮤니티 제공**
 
 **[제작 인원]**  
 총 1명
@@ -398,10 +398,30 @@ SSG 방식 안에서는 사용자가 직접 HTML 서빙을 개별로 받을 수 
 |  DB    |  ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 |  Dev-Ops|  ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)    |
 
-**[외부 링크]**  
-![🔧 Github](https://github.com/STIGMA01/habakkuk/)
+**[개요]**
+- 백엔드로 Django REST framework를 통해 안정적인 비지니스 로직 실행을 지원하도록 했습니다.
+- 프론트엔드는 Vue.js를 기반으로 SPA 기반 렌더링으로 사용자 반응형에 최적화된 페이지를 설계하도록 했습니다.
+- Docker 구성으로 VPC 기반에서 빠른 배포와 안정적이고 보안을 갖춘 환경을 바라보도록 했습니다.
 
 > 다른 우선 프로젝트 진행으로 일시 보류된 프로젝트입니다.
+
+--------
+### 🛠 업무 자동화 서비스 개발
+**클라이언트 요청에 따라 온라인 쇼핑 관련 업체에서의 업무 자동화 기술 지원**  
+
+**[제작 인원]**
+총 1명
+
+**[활동 기간]**
+2025.08. ~ 
+
+**[아키텍처]**
+| 분야        | 숙련  |             기술 |
+|-------------|------|--------------------|
+| 언어        | `★★★☆`  | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) |
+| 기타       | `★★☆☆`  |  ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) | 
+
+
 
 ---
 
