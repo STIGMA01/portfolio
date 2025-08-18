@@ -1,9 +1,11 @@
-# 백엔드 개발자로서 무엇을 경험했는지...
+# 개발 포트폴리오
 
 <br>
 
 ## 소개
-STIGMA의 포트폴리오 공간입니다.
+안녕하세요.  
+처음에는 프로그램 및 백엔드 개발로 시작하였지만, 프론트 엔드 개발도 중점적으로 달려가고 있는  
+개발자 이대건이라고 합니다.
 
 <br>
 
@@ -347,6 +349,36 @@ STIGMA의 포트폴리오 공간입니다.
 <br>
 
 ## 📂 주요 프로젝트
+### 외주 홈페이지 개발
+**개인(본인) 목적으로 고객(클라이언트)로부터 외주를 받고 서비스를 소개하는 웹사이트 게발**
+
+**[제작 인원]**
+총 1명
+
+**[제작 기간]**
+2025.08. ~ 2025.08.16 (프로덕션)
+
+**[아키텍처]**
+|  분류  |        항목        |
+|--------|--------------------|
+|  FE    |  ![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) |
+|  Platform    |  ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)  |
+|  DB    |  ![Firestore](https://img.shields.io/badge/Firestore-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)  |
+|  DevOps    |  ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)  |
+
+**[개발 개요]**
+- Vue.js와 Vite를 기반으로 빠르게 프론트엔드 웹을 구성했습니다.
+- 많은 비지니스 로직을 요구하지 않기 때문에 백엔드를 별도로 구축하지 않은 Serverless 방식을 채택했습니다.
+- SPA 방식의 한계점을 개선하기 위해 Vite-SSG 빌드 방식으로 정적 HTML 파일을 서빙하도록 하였습니다.
+이로인해 SEO 최적화가 두드러졌고, 사용자 유입을 기대할 수 있었습니다.
+- Github Actions 활용으로 빠른 프리뷰와 배포로 업무 프로세스 효율성이 증대되었습니다.
+
+**[Troubleshooting]**
+- [SEO 문제] 개발 중에 Firebase의 특성상 SPA 로딩 방식에 대해 rewrites 옵션이란 것을 부여했는데, 추후 Vite-SSG로 전향하면서 이 옵션을 제거하지 않은 것이 주요 문제 해결점이었습니다. 
+SSG 방식 안에서는 사용자가 직접 HTML 서빙을 개별로 받을 수 있도록 Firebase를 설정함으로써 SEO 엔진/크롤러의 무력화 문제를 해결하였습니다. 
+- [보안 문제] 백엔드 로직의 미비로 인해 발생할 수 있는 폼 제출 보안 위협을 Firestore의 정밀한 규칙검사를 통해 해결하였습니다.
+- [보안 문제] 엄격한 CSP를 요구하는 사이트 목적은 아니지만, 보다 안전한 사이트를 위해 CSP 설정을 약간 엄격하게 지정하였습니다. 이 과정에서 정적 파일이나 CDN 등이 서빙되지 않은 간헐적 문제를 겪었지만, 정확한 도메인을 지정함으로써 문제를 해결했습니다.  
+  
 
 ### Habakkuk (웹사이트)
 **전 세계 각지 교회 소식과 여러가지 커뮤니티로서 기능하는 웹사이트 개발**  
@@ -355,7 +387,7 @@ STIGMA의 포트폴리오 공간입니다.
 총 1명
 
 **[제작 기간]**  
-2025.07.26 ~ 
+2025.07.26 ~ 미정
 
 **[아키텍처]**  
 |  분류  |        항목        |
@@ -368,6 +400,7 @@ STIGMA의 포트폴리오 공간입니다.
 **[외부 링크]**  
 ![🔧 Github](https://github.com/STIGMA01/habakkuk/)
 
+> 다른 우선 프로젝트 진행으로 일시 보류된 프로젝트입니다.
 
 ---
 
@@ -379,7 +412,4 @@ STIGMA의 포트폴리오 공간입니다.
 - Email: stigma_19121@naver.com
 
 ---
-
-> Backend Development History
-
 
