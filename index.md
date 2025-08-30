@@ -96,12 +96,13 @@
   <img src="https://cdn.simpleicons.org/docker/2496ED" height="24" />
 </p>
 
-<img width="740" height="360" alt="자막 말뭉치 처리 서비스" src="https://github.com/user-attachments/assets/8b726484-eb9d-4059-835c-fb61e55f40a6" />
-
+  
+<img width="740" height="360" alt="자막 말뭉치 처리 서비스" src="https://github.com/user-attachments/assets/8b726484-eb9d-4059-835c-fb61e55f40a6" />  
+  
 
 1) **`Django REST framework`를 기반으로 백엔드 API 구축**
      ** API 명세서 (예시)
-     <img width="800" height="265" alt="image" src="https://github.com/user-attachments/assets/c8489ea8-dc74-485d-aa32-1eb4e066e8e9" />
+     <img width="800" height="265" alt="image" src="https://github.com/user-attachments/assets/c8489ea8-dc74-485d-aa32-1eb4e066e8e9" />  
      
     - **Neo4j에 대한 CURD 작업 등을 위한 API 개발**
       > 성능과 업데이트에 대한 우려가 있지만, Neo4j Engine 주력으로 `Py2Neo`를 사용하기로 했습니다.
@@ -366,6 +367,7 @@ SSG 방식 안에서는 사용자가 직접 HTML 서빙을 개별로 받을 수 
 2025.08.23 ~ 2025.08.29(프리뷰 베타) ~ 추후 프로덕션 예정
 
 **[아키텍처]**
+  
 |  분류  |        항목        |
 |--------|--------------------|
 |  FE    |  ![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) |
@@ -388,6 +390,7 @@ SSG 방식 안에서는 사용자가 직접 HTML 서빙을 개별로 받을 수 
 2025.07.26 ~ 미정
 
 **[아키텍처]**  
+  
 |  분류  |        항목        |
 |--------|--------------------|
 |  BE    |  ![DRF](https://img.shields.io/badge/Django%20REST%20API-FF1709?style=for-the-badge&logo=django&logoColor=white)  |   
@@ -413,6 +416,7 @@ SSG 방식 안에서는 사용자가 직접 HTML 서빙을 개별로 받을 수 
 2025.08. ~ 
 
 **[아키텍처]**
+  
 | 분야        | 숙련  |             기술 |
 |-------------|------|--------------------|
 | 언어        | `★★★☆`  | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) |
