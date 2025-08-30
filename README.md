@@ -68,7 +68,10 @@
     - `Django` 프레임워크에 대한 유지보수 및 페이지 개발
     - 웹페이지 디자인 개선 및 UI 개발 `(Bootstrap5)`
     - SEO 개선 및 홈페이지 게시판, 관리자 관리 기능 등 개발
-
+     
+  ![포트폴리오-이미지-0](https://github.com/user-attachments/assets/817b547c-ac8d-4096-87a4-04c0cae242cc)
+  
+      
     2-2. **핵심 크롤러 및 데이터 수집**
     - 자연어 데이터 처리 및 수집/분석을 위한 `Splunk DB` 유지보수
  
@@ -350,10 +353,10 @@
 ## 📂 주요 프로젝트
   
 ### 🌐 외주 홈페이지 개발
-**개인(본인) 목적으로 고객(클라이언트)로부터 외주를 받고 서비스를 소개하는 정적 웹사이트 개발**
+**개인 목적으로 IT서비스 제작 사업 소개 홈페이지 개발**
 
 **[제작 인원]**
-총 1명
+총 1명 (본인)
 
 **[제작 기간]**
 2025.08. ~ 2025.08.16 (프로덕션)
@@ -378,6 +381,27 @@
 SSG 방식 안에서는 사용자가 직접 HTML 서빙을 개별로 받을 수 있도록 Firebase를 설정함으로써 SEO 엔진/크롤러의 무력화 문제를 해결하였습니다. 
 - [보안 문제] 백엔드 로직의 미비로 인해 발생할 수 있는 폼 제출 보안 위협을 Firestore의 정밀한 규칙검사를 통해 해결하였습니다.
 - [보안 문제] 엄격한 CSP를 요구하는 사이트 목적은 아니지만, 보다 안전한 사이트를 위해 CSP 설정을 약간 엄격하게 지정하였습니다. 이 과정에서 정적 파일이나 CDN 등이 서빙되지 않은 간헐적 문제를 겪었지만, 정확한 도메인을 지정함으로써 문제를 해결했습니다.  
+
+-----------
+### 🌐 1인 마켓/상품 소개 홈페이지 개발
+**클라이언트의 마켓 상품 및 서비스 홍보 홈페이지**
+
+**[제작 인원]**
+총 1명 (본인)
+
+**[제작 기간]**
+2025.08.23 ~ 2025.08.29(프리뷰 베타) ~ 추후 프로덕션 예정
+
+**[아키텍처]**
+|  분류  |        항목        |
+|--------|--------------------|
+|  FE    |  ![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) |
+|  Platform    |  ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)  |
+|  DB    |  ![Firestore](https://img.shields.io/badge/Firestore-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)  |
+|  DevOps    |  ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)  |
+  
+![포트폴리오-이미지-1](https://github.com/user-attachments/assets/95ff9bb0-1fe3-4ceb-bbe1-75ef164988e0)
+  
   
 -----------
 ### 🌐 Habakkuk (웹사이트)
