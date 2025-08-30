@@ -40,7 +40,7 @@
 
 <br> 
 
-### **1. 백엔드 개발 | 자연어 처리(NLP) 솔루션 기업 <sub> **2024. 02. ~ 2024. 12.**
+### **1. 백엔드 개발 | 자연어 처리(NLP) 솔루션 기업 - 2024. 02. ~ 2024. 12.**  
 
 ![NLP](https://img.shields.io/badge/NLP-Machine%20Learning-blue?style=flat-square)
 
@@ -89,7 +89,7 @@
 ----
 
 
-### **2. [1인 개발] 경량 인트라넷 개발 | 영상 자막 등 언어 데이터에 대한 사용자 작업 서비스 구축 <sub> **2025. 06. ~ ...**  
+### **2. [1인 개발] 경량 인트라넷 개발 | 영상 자막 등 언어 데이터에 대한 사용자 작업 서비스 구축 - 2025. 06. ~ ...**  
 
 <p align="left">
   <img src="https://cdn.simpleicons.org/python/3776AB" height="24" />
@@ -102,18 +102,17 @@
 
   
 <img width="740" height="360" alt="자막 말뭉치 처리 서비스" src="https://github.com/user-attachments/assets/8b726484-eb9d-4059-835c-fb61e55f40a6" />  
-  
 
+  
 1) **`Django REST framework`를 기반으로 백엔드 API 구축**  
      **API 명세서 (예시)**  
-   
-     <img width="800" height="265" alt="image" src="https://github.com/user-attachments/assets/c8489ea8-dc74-485d-aa32-1eb4e066e8e9" />  
-     
-    - **Neo4j에 대한 CURD 작업 등을 위한 API 개발**  
+
+<img width="800" height="265" alt="image" src="https://github.com/user-attachments/assets/c8489ea8-dc74-485d-aa32-1eb4e066e8e9" />  
+    **Neo4j에 대한 CURD 작업 등을 위한 API 개발**  
       - 성능과 업데이트에 대한 우려가 있지만, Neo4j Engine 주력으로 `Py2Neo`를 사용하기로 했습니다.  
       - 또한 `graphene`나 `neomodel` 등 외부 라이브러리는 사용하지 못했고, dataclass로 순수하게 스키마 모델 부문을 만들고, Service 레이어를 만들었습니다.  
 
-      **[Example.1] DRF의 API 뷰**  
+  **[Example.1] DRF의 API 뷰**  
 ```python
        
        class CorpusUploadView(GenericAPIView): 
@@ -159,6 +158,7 @@
         프론트에서 백엔드 API를 호출할 때 사용할 기본적인 클라이언트를 만들었습니다.
   
 ```python
+
         class CorpusAPIClient(BaseAPIClient):
             ENDPOINTS = {
                 'list': DRF_ENDPOINT_NODES_LIST,
@@ -194,16 +194,14 @@
                     return res.json()
                 else:
                     return {"message": f"Status: {res.status_code}, No response body"}
-
 ```
   
-        **[Example.2] API 호출/수신시 스키마 모델화**    
+  **[Example.2] API 호출/수신시 스키마 모델화**    
   
-        프론트에서 API를 호출할 때, 유지보수와 정합성을 고려하면 스키마를 모델화하여 처리하는 것이 필요하다고 판단하였습니다.
-        또한 `Pydantic` 라이브러리가 아닌 가벼운 dataclass로 신속히 만드는 것을 채택했습니다.
-        
+        프론트에서 API를 호출할 때, 유지보수와 정합성을 고려하면 스키마를 모델화하여 처리하는 것이 필요하다고 판단하였습니다.  
+        또한 `Pydantic` 라이브러리가 아닌 가벼운 dataclass로 신속히 만드는 것을 채택했습니다.  
+  
 ```python
-   
         from dataclasses import dataclass, asdict, fields
         from typing import Type, TypeVar, Any, Dict, Union, IO, Optional, List
         from .enums.enum import MimeType
@@ -241,12 +239,10 @@
                 filtered_data = {k: v for k, v in data.items()
                                   if k in field_names}
                 return cls(**filtered_data)
-
 ```
    
     
 ```python
-   
         from dataclasses import dataclass, field
         from typing import Optional, List
         from .base import BaseDataModel, UploadFileModel
@@ -261,12 +257,13 @@
             corpus_category: Optional[str] = None
             corpus_language: Optional[str] = None
             corpus_video_unique_id: Optional[str] = None
-  
-        ```
 
-        **[Example.3] 호출 함수**  
+```
+
+  **[Example.3] 호출 함수**    
           
-        ```python
+```python
+
         # Streamlit의 기능을 활용한 파일 업로드 부문
         
         with st.spinner("Wait..."):
@@ -293,7 +290,8 @@
           
         
       - 빠른 프로토타입 제공에 최적화된 Streamlit 활용
-      **개발 모드 실행**  
+  
+  **개발 모드 실행**   
       
 <img width="800" height="75" alt="image" src="https://github.com/user-attachments/assets/63f24b61-bb36-4416-bf1c-62d5b6eb2a8a" />
 
